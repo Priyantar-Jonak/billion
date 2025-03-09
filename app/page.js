@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Counter id="counter1"/>
-        <Counter id="counter2"/>
-        <Counter id="counter3"/>
+        <Counter name="counter1" id="counter1"/>
+        <Counter name="counter2" id="counter2"/>
+        <Counter name="counter3" id="counter3"/>
       </main>
     </div>
   );
