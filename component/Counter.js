@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 export default function Counter({ title, id }) {
+
   const [count, setCount] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
 

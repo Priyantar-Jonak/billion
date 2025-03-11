@@ -1,10 +1,9 @@
 import styles from "./page.module.css";
 import Counter from "../component/Counter";
-import clientPromise from "@/utilities/mongo";
+import clientPromise from "../utilities/mongo";
 
 export default function Home() {
-
-  clientPromise.db.collection("users").find({ age : 32});
+  // clientPromise.db.collection("users").find({ age : 21});
 
   return (
     <div className={styles.page}>
